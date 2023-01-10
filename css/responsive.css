@@ -1,0 +1,1326 @@
+/*//////////////////////////// xxl responsive starts here //////////////////////////////////////////*/
+@media (min-width:1400px) {
+    /* banner part here */
+
+    .banner-shape-two img {
+        right: 300px;
+    }
+
+    /* about part here */
+    .slide-icon-left {
+        left: -60px;
+    }
+
+    .slide-icon-right {
+        right: -124px;
+    }
+
+}
+
+
+/*//////////////////////////// xl responsive starts here //////////////////////////////////////////*/
+@media (min-width:1200px) and (max-width:1399.99px) {
+
+    /* banner part here */
+    .banner-text h1 {
+        font-size: 80px;
+    }
+
+    .banner-text p {
+        padding: 0 65px;
+    }
+
+    /* count part here */
+    .count-item h5 {
+        font-size: 32px;
+    }
+
+
+    /* choose part here */
+    .left-text p {
+        padding-right: 0;
+    }
+
+    .choose-right p {
+        padding-right: 0;
+    }
+
+    /* what part here */
+    .common-box p {
+        padding: 0 30px;
+    }
+
+    /* real part here */
+    .real-left-content p {
+        padding-right: 0;
+    }
+
+    /* about part here */
+    .slide-icon-left {
+        width: 50px;
+        height: 50px;
+        font-size: 15px;
+        left: -45px;
+    }
+
+    .slide-icon-right {
+        width: 50px;
+        height: 50px;
+        font-size: 15px;
+        right: -90px;
+    }
+
+    .about-content p {
+        padding: 0 120px;
+    }
+
+    /* like part here */
+    .menu h5 {
+        line-height: 40px;
+    }
+}
+
+/*//////////////////////////// lg responsive starts here //////////////////////////////////////////*/
+
+@media (min-width:992px) and (max-width:1199.99px) {
+
+    /* nav part here */
+    .nav-link {
+        color: #EFF4FA;
+        font-size: 14px;
+    }
+
+    .nav-button button {
+        font-size: 14px;
+        padding: 10px 24px;
+    }
+
+    /* banner part here */
+    #banner {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+
+    .banner-text h1 {
+        font-size: 69px;
+        line-height: 90px;
+    }
+
+    .banner-text p {
+        padding: 0 0px;
+    }
+
+    .banner-shape-one img {
+        display: none;
+    }
+
+    .banner-shape-two img {
+        right: 70px;
+    }
+
+    /* count part here */
+    #count {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .count-item h3 {
+        font-size: 50px;
+        line-height: 30px;
+    }
+
+    .count-item h5 {
+        font-size: 26px;
+    }
+
+    /* choose part here */
+    .left-text p {
+        padding-right: 0;
+    }
+
+    .choose-right p {
+        padding-right: 0;
+    }
+
+    /* what part here */
+    .rare-box p {
+        line-height: 28px;
+    }
+
+    .common-box p {
+        padding: 0 10px;
+    }
+
+    /* real part here */
+    .real-head h2 {
+        font-size: 40px;
+    }
+
+    .real-head p {
+        font-size: 16px;
+        line-height: 25px;
+        padding: 0 0;
+    }
+
+    .real-left-content p {
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    /* plan part here */
+    .plan-head h2 {
+        font-size: 40px;
+    }
+
+    .plan-box p {
+        padding: 0 5px 59px 0;
+    }
+
+    /*  about part here */
+    .slide-icon-left {
+        width: 45px;
+        height: 45px;
+        font-size: 15px;
+        left: -35px;
+    }
+
+    .slide-icon-right {
+        width: 45px;
+        height: 45px;
+        font-size: 15px;
+        right: -80px;
+    }
+
+    .about-content p {
+        padding: 0 10px;
+    }
+
+    /* like part here */
+    .menu h5 {
+        font-size: 25px;
+        line-height: 42px;
+    }
+
+    /* footer part here */
+    .footer-left p {
+        font-size: 16px;
+    }
+
+    .copyright-part1 span {
+        font-size: 16px;
+    }
+
+    .copyright-part2 span {
+        font-size: 16px;
+    }
+}
+
+/*//////////////////////////// md responsive starts here //////////////////////////////////////////*/
+
+@media (min-width:768px) and (max-width:991.99px) {
+
+    /* nav part here */
+    .navbar {
+        background: #48409c;
+    }
+
+    .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar-toggler {
+        color: #fff;
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .nav-link {
+        position: relative;
+    }
+
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        background-color: #1BBF00;
+        left: 0;
+        bottom: 0;
+        transition: all linear .3s;
+        transform: rotate(-5deg);
+    }
+
+    .nav-link:hover::after{
+        width: 100%;
+    }
+
+
+    .nav-button button {
+        font-size: 16px;
+        padding: 10px 100px;
+    }
+
+    /* banner part here */
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 60px;
+    }
+
+    .banner-text h1 {
+        font-size: 62px;
+        line-height: 84px;
+    }
+
+    .banner-text p {
+        font-size: 24px;
+        line-height: 40px;
+        padding: 10px 0px;
+    }
+
+    .banner-button button {
+        padding: 20px 40px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .banner-shape-one img {
+        display: none;
+    }
+
+    .banner-shape-two img {
+        display: none;
+    }
+
+    /* count part here */
+    #count {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .count-item h3 {
+        font-size: 64px;
+        line-height: 68px;
+        padding-bottom: 20px;
+    }
+
+    .count-item h5 {
+        font-size: 36px;
+        line-height: 40px;
+        padding-bottom: 0;
+    }
+
+    .count-item::after {
+        width: 0;
+        height: 0;
+    }
+
+    /* choose part here */
+    #choose {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .choose-left {
+        margin-bottom: 60px;
+    }
+
+    .left-dot-wrapprer {
+        width: 32px;
+    }
+
+    .left-text p {
+        font-size: 18px;
+        line-height: 30px;
+        padding-right: 180px;
+    }
+
+    .choose-right {
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .offset-2 {
+        margin-left: 0;
+    }
+
+    .choose-right h3 {
+        font-size: 48px;
+    }
+
+    .choose-right p {
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 41px;
+        padding-right: 0;
+    }
+
+    .choose-button button {
+        padding: 20px 40px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    /* what part here */
+    #what {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .rare-box {
+        text-align: center;
+    }
+
+    .rare-box h3 {
+        font-size: 48px;
+    }
+
+    .rare-box p {
+        font-size: 18px;
+        padding-bottom: 56px;
+        line-height: 32px;
+    }
+
+    .rare-box-button button {
+        padding: 20px 40px;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 75px;
+    }
+
+
+
+    .common-box-button button {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 8px 10px;
+    }
+
+    /* real part here */
+    #real {
+        padding: 100px 0;
+    }
+
+    .real-head h2 {
+        font-size: 48px;
+        padding-bottom: 20px;
+    }
+
+    .real-head p {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0 5px;
+    }
+
+    .real-left {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+
+    .real-left-content {
+        margin-left: 35px;
+    }
+
+    .real-left-content h3 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .real-left-content p {
+        font-size: 18px;
+        line-height: 30px;
+        padding-top: 10px;
+        padding-right: 130px;
+    }
+
+    .offset-1 {
+        margin-left: 0;
+    }
+
+    /* plan part here  */
+    #plan {
+        padding: 60px 0;
+    }
+
+    .plan-head h2 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .plan-box h4 {
+        padding-top: 56px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .plan-box h5 {
+        font-size: 48px;
+        margin-bottom: 12px;
+    }
+
+    .plan-box p {
+        font-size: 18px;
+        padding: 0 63px;
+        line-height: 32px;
+        padding-bottom: 59px;
+    }
+
+    /* about part here */
+    #about {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .about-content p {
+        font-size: 18px;
+        padding: 0 5px;
+        line-height: 32px;
+        padding-bottom: 30px;
+    }
+
+    .about-content h5 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .about-content span {
+        font-size: 16px;
+    }
+
+    .about-content {
+        margin-top: 120px;
+        padding-bottom: 30px;
+    }
+
+    .slide-icon-left {
+        width: 50px;
+        height: 50px;
+        top: 109%;
+        left: 33%;
+    }
+
+    .slide-icon-right {
+        width: 50px;
+        height: 50px;
+        top: 109%;
+        right: 25%;
+    }
+
+    /* lilke part here */
+    #like {
+        padding: 100px 0;
+    }
+
+    .like-head h2 {
+        font-size: 50px;
+        line-height: 65px;
+        padding-bottom: 64px;
+    }
+
+    .like-content-list li a {
+        padding-right: 30px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .menu h5 {
+        font-size: 30px;
+        line-height: 55px;
+    }
+
+    .like-button button {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 8px 10px;
+    }
+
+    /* footer part here */
+
+    .footer-left p {
+        font-size: 18px;
+        line-height: 160%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .footer-features {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .footer-features ul {
+        padding-top: 15px;
+    }
+
+    .footer-features ul li {
+        padding-bottom: 15px;
+    }
+
+    .footer-features ul li a {
+        font-size: 18px;
+    }
+
+    .offset-4 {
+        margin-left: 0;
+    }
+
+    .copyright-part1 span {
+        font-size: 16px;
+        line-height: 0;
+    }
+
+    .copyright-part2 span {
+        font-size: 16px;
+        line-height: 0;
+    }
+}
+
+/*//////////////////////////// sm responsive starts here //////////////////////////////////////////*/
+@media (min-width:576px) and (max-width:767.99px) {
+
+    /* nav part here */
+    .navbar {
+        background: #48409c;
+    }
+
+    .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar-toggler {
+        color: #fff;
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .nav-link {
+        position: relative;
+    }
+
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        background-color: #1BBF00;
+        left: 0;
+        bottom: 0;
+        transition: all linear .3s;
+        transform: rotate(-5deg);
+    }
+
+    .nav-link:hover::after{
+        width: 100%;
+    }
+
+
+    .nav-button button {
+        font-size: 16px;
+        padding: 10px 100px;
+    }
+
+    /* banner part here */
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 60px;
+    }
+
+    .banner-text h1 {
+        font-size: 46px;
+        line-height: 64px;
+    }
+
+    .banner-text p {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 10px 0px;
+    }
+
+    .banner-button button {
+        padding: 20px 40px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .banner-shape-one img {
+        display: none;
+    }
+
+    .banner-shape-two img {
+        display: none;
+    }
+
+    /* count part here */
+    #count {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .count-item h3 {
+        font-size: 50px;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+
+    .count-item h5 {
+        font-size: 22px;
+        line-height: 10px;
+        padding-bottom: 50px;
+    }
+
+    .count-item::after {
+        width: 0;
+        height: 0;
+    }
+
+    /* choose part here */
+    #choose {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .choose-left {
+        margin-bottom: 60px;
+    }
+
+    .left-dot-wrapprer {
+        width: 32px;
+    }
+
+    .left-text p {
+        font-size: 18px;
+        line-height: 30px;
+        padding-right: 5px;
+    }
+
+    .choose-right {
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .offset-2 {
+        margin-left: 0;
+    }
+
+    .choose-right h3 {
+        font-size: 48px;
+    }
+
+    .choose-right p {
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 41px;
+        padding-right: 0;
+    }
+
+    .choose-button button {
+        padding: 20px 40px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    /* what part here */
+    #what {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .rare-box {
+        text-align: center;
+    }
+
+    .rare-box h3 {
+        font-size: 48px;
+    }
+
+    .rare-box p {
+        font-size: 18px;
+        padding-bottom: 56px;
+        line-height: 32px;
+    }
+
+    .rare-box-button button {
+        padding: 20px 40px;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 75px;
+    }
+
+    .common-box {
+        padding: 32px 0;
+    }
+
+    .common-box h3 {
+        font-size: 25px;
+    }
+
+    .common-box p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0 7px;
+    }
+
+    .common-box-button button {
+        font-size: 13px;
+        line-height: 0;
+        padding: 18px 22px;
+    }
+
+    /* real part here */
+    #real {
+        padding: 60px 0;
+    }
+
+    .real-head h2 {
+        font-size: 47px;
+        padding-bottom: 20px;
+    }
+
+    .real-head p {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0 5px;
+    }
+
+    .real-left {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+
+    .real-left-content {
+        margin-left: 35px;
+    }
+
+    .real-left-content h3 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .real-left-content p {
+        font-size: 16px;
+        line-height: 28px;
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+
+    .offset-1 {
+        margin-left: 0;
+    }
+
+    /* plan part here  */
+    #plan {
+        padding: 60px 0;
+    }
+
+    .plan-head h2 {
+        font-size: 46px;
+        margin-bottom: 10px;
+    }
+
+    .plan-box h4 {
+        padding-top: 56px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .plan-box h5 {
+        font-size: 48px;
+        margin-bottom: 12px;
+    }
+
+    .plan-box p {
+        font-size: 18px;
+        padding: 0 63px;
+        line-height: 32px;
+        padding-bottom: 59px;
+    }
+
+    /* about part here */
+    #about {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .about-content p {
+        font-size: 18px;
+        padding: 0 5px;
+        line-height: 32px;
+        padding-bottom: 30px;
+    }
+
+    .about-content h5 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .about-content span {
+        font-size: 16px;
+    }
+
+    .about-content {
+        margin-top: 120px;
+        padding-bottom: 30px;
+    }
+
+    .slide-icon-left {
+        width: 50px;
+        height: 50px;
+        top: 109%;
+        left: 33%;
+    }
+
+    .slide-icon-right {
+        width: 50px;
+        height: 50px;
+        top: 109%;
+        right: 25%;
+    }
+
+    /* lilke part here */
+    #like {
+        padding: 100px 0;
+    }
+
+    .like-head h2 {
+        font-size: 50px;
+        line-height: 65px;
+        padding-bottom: 64px;
+    }
+
+    .like-content-list li a {
+        padding-right: 30px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .menu h5 {
+        font-size: 30px;
+        line-height: 55px;
+    }
+
+    .like-button button {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 8px 10px;
+    }
+
+    /* footer part here */
+    #footer {
+        padding-top: 60px;
+    }
+
+    .footer-left p {
+        font-size: 13px;
+        line-height: 160%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .footer-features {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .footer-features ul {
+        padding-top: 15px;
+    }
+
+    .footer-features ul li {
+        padding-bottom: 15px;
+    }
+
+    .footer-features ul li a {
+        font-size: 18px;
+    }
+
+    .offset-4 {
+        margin-left: 0;
+    }
+
+    .copyright-part1 span {
+        font-size: 13px;
+        line-height: 0;
+    }
+
+    .copyright-part2 span {
+        font-size: 13px;
+        line-height: 0;
+    }
+}
+
+
+/*//////////////////////////// xs responsive starts here //////////////////////////////////////////*/
+@media (max-width: 575.99px) {
+
+    /* nav part here */
+    .navbar {
+        background: #48409c;
+    }
+
+    .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar-toggler {
+        color: #fff;
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .nav-link {
+        position: relative;
+    }
+
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        background-color: #1BBF00;
+        left: 0;
+        bottom: 0;
+        transition: all linear .3s;
+        transform: rotate(-5deg);
+    }
+
+    .nav-link:hover::after{
+        width: 100%;
+    }
+
+    .nav-button button {
+        font-size: 16px;
+        padding: 10px 100px;
+    }
+
+    /* banner part here */
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 60px;
+    }
+
+    .banner-text h1 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .banner-text p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 10px 0px;
+    }
+
+    .banner-button button {
+        padding: 18px 22px;
+        font-size: 13px;
+        line-height: 0px;
+    }
+
+    .banner-shape-one img {
+        display: none;
+    }
+
+    .banner-shape-two img {
+        display: none;
+    }
+
+    /* count part here */
+    #count {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .count-item h3 {
+        font-size: 50px;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+
+    .count-item h5 {
+        font-size: 22px;
+        line-height: 10px;
+        padding-bottom: 50px;
+    }
+
+    .count-item::after {
+        width: 0;
+        height: 0;
+    }
+
+    /* choose part here */
+    #choose {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .left-dot-wrapprer {
+        width: 32px;
+    }
+
+    .left-text p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 5px;
+    }
+
+    .choose-right {
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .offset-2 {
+        margin-left: 0;
+    }
+
+    .choose-right h3 {
+        font-size: 30px;
+    }
+
+    .choose-right p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-bottom: 25px;
+        padding-right: 0px;
+    }
+
+    .choose-button button {
+        padding: 18px 22px;
+        font-size: 13px;
+        line-height: 0;
+    }
+
+    /* what part here */
+    #what {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .rare-box {
+        text-align: center;
+    }
+
+    .rare-box h3 {
+        font-size: 30px;
+    }
+
+    .rare-box p {
+        font-size: 14px;
+        padding-bottom: 25px;
+        line-height: 25px;
+    }
+
+    .rare-box-button button {
+        padding: 18px 22px;
+        font-size: 13px;
+        line-height: 0;
+        margin-bottom: 30px;
+    }
+
+    .common-box {
+        padding: 32px 0;
+    }
+
+    .common-box h3 {
+        font-size: 25px;
+    }
+
+    .common-box p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0 7px;
+    }
+
+    .common-box-button button {
+        font-size: 13px;
+        line-height: 0;
+        padding: 18px 22px;
+    }
+
+    /* real part here */
+    #real {
+        padding: 60px 0;
+    }
+
+    .real-head h2 {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .real-head p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0 5px;
+    }
+
+    .real-left {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+
+    .real-left-content {
+        margin-left: 14px;
+    }
+
+    .real-left-content h3 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .real-left-content p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+
+    .offset-1 {
+        margin-left: 0;
+    }
+
+    /* plan part here  */
+    #plan {
+        padding: 60px 0;
+    }
+
+    .plan-head h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .plan-box h4 {
+        padding-top: 40px;
+        font-size: 25px;
+        line-height: 0;
+    }
+
+    .plan-box h5 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .plan-box p {
+        font-size: 14px;
+        padding: 0 5px;
+        line-height: 25px;
+        padding-bottom: 40px;
+    }
+
+    /* about part here */
+    #about {
+        padding-bottom: 80px;
+        padding-top: 60px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+        padding: 0 5px;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+
+    .about-content h5 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .about-content span {
+        font-size: 13px;
+    }
+
+    .about-content {
+        margin-top: 120px;
+        padding-bottom: 30px;
+    }
+
+    .slide-icon-left {
+        width: 50px;
+        height: 50px;
+        top: 109%;
+        left: 33%;
+    }
+
+    .slide-icon-right {
+        width: 50px;
+        height: 50px;
+        top: 109%;
+        right: 25%;
+    }
+
+    /* lilke part here */
+    #like {
+        padding: 60px 0;
+    }
+
+    .like-head h2 {
+        font-size: 30px;
+        line-height: 25px;
+        padding-bottom: 40px;
+    }
+
+    .like-content-list li a {
+        padding-right: 24px;
+        font-size: 13px;
+        line-height: 0px;
+    }
+
+    .menu h5 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .like-button button {
+        font-size: 13px;
+        line-height: 0;
+        padding: 18px 22px;
+    }
+
+    /* footer part here */
+    #footer {
+        padding-top: 60px;
+    }
+
+    .footer-left p {
+        font-size: 13px;
+        line-height: 160%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .footer-features {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .footer-features ul {
+        padding-top: 15px;
+    }
+
+    .footer-features ul li {
+        padding-bottom: 15px;
+    }
+
+    .footer-features ul li a {
+        font-size: 15px;
+    }
+
+    .offset-4 {
+        margin-left: 0;
+    }
+
+    .copyright-part1 span {
+        font-size: 13px;
+        line-height: 0;
+    }
+
+    .copyright-part2 span {
+        font-size: 13px;
+        line-height: 0;
+    }
+}

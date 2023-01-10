@@ -1,0 +1,767 @@
+/* common css starts here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --first-font: "Open Sans", sans-serif;
+  --sceond-font: "Paprika", cursive;
+  font-family: "Paprika", cursive;
+  --third-font: "Quicksand", sans-serif;
+  --fourth-font: "Nunito", sans-serif;
+  --theme-color: #1bbf00;
+  --nav-color: #160c6d;
+  --footer-color: #48409c;
+  --main-fontColor: #141135;
+  --paragraph-color: #726e9e;
+}
+
+/* common css ends here */
+/* nav css starts here */
+.navbar {
+  background: linear-gradient(rgba(72, 64, 156, 0.7), rgba(72, 64, 156, 0.7));
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.navbar-nav {
+  align-items: center;
+  color: #eff4fa;
+}
+
+.nav-item {
+  margin-left: 30px;
+}
+
+.nav-link {
+  color: #eff4fa;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--first-font);
+  transition: all linear 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--theme-color);
+}
+
+.nav-button button {
+  color: #eff4fa;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--first-font);
+  line-height: 200%;
+  background-color: var(--theme-color);
+  border: none;
+  border-radius: 100px;
+  padding: 14px 28px;
+}
+
+/* nav css ends here */
+/* banner css starts here */
+#banner {
+  background: linear-gradient(rgba(72, 64, 156, 0.6), rgba(72, 64, 156, 0.6)),
+    url(../images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 246px;
+  padding-bottom: 254px;
+  position: relative;
+}
+
+.banner-text h1 {
+  font-size: 84px;
+  font-weight: 700;
+  color: #eff4fa;
+  font-family: var(--first-font);
+  line-height: 100px;
+}
+
+.banner-text p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #eff4fa;
+  font-family: var(--sceond-font);
+  line-height: 40px;
+  padding: 0 170px;
+}
+
+.banner-button {
+  column-gap: 28px;
+}
+
+.banner-button button {
+  background: var(--theme-color);
+  border: none;
+  border: 2px solid var(--theme-color);
+  padding: 20px 40px;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f9f9f9;
+  font-family: var(--first-font);
+  line-height: 24px;
+  transition: all linear 0.3s;
+}
+
+.banner-button button:hover {
+  background: transparent;
+}
+
+.banner-shape-one img {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+}
+.banner-shape-two img {
+  position: absolute;
+  right: 310px;
+  bottom: 73px;
+}
+
+/* banner css ends here */
+/* count css starts here */
+#count {
+  padding-top: 283px;
+  padding-bottom: 282px;
+  background: #f9f9fb;
+  position: relative;
+}
+
+.count-item {
+  position: relative;
+}
+
+.count-item::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(rgba(79, 88, 95, 0.5), rgba(79, 88, 95, 0.5));
+  border-radius: 10px;
+}
+
+.last-child:last-child ::after {
+  width: 0;
+}
+
+.count-item h3 {
+  font-family: var(--first-font);
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--theme-color);
+  line-height: 68px;
+  padding-bottom: 24px;
+}
+
+.count-item h5 {
+  font-family: var(--first-font);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  color: var(--main-fontColor);
+}
+
+.count-shape {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* count css ends here */
+/* choose css starts here */
+#choose {
+  padding-top: 100px;
+  padding-bottom: 91px;
+  position: relative;
+  background: #fdfdfd;
+  z-index: 1;
+}
+
+.choose-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.left-dot-wrapprer {
+  width: 55px;
+  padding-top: 8px;
+}
+
+.left-dot {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 28px;
+  background: var(--theme-color);
+  position: relative;
+}
+
+.left-dot::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #cbc8f0;
+}
+
+.left-text {
+  margin-left: 50px;
+}
+
+.left-text p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--sceond-font);
+  color: var(--paragraph-color);
+  line-height: 30px;
+  padding-right: 180px;
+  margin-bottom: 0;
+}
+
+.choose-left-item {
+  margin-bottom: 32px;
+  transition: all linear 0.3s;
+}
+
+.choose-left-item:hover {
+  padding: 42px 0;
+  background: #ffffff;
+  box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+  border-radius: 12px;
+}
+
+.choose-right h3 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--first-font);
+  color: var(--main-fontColor);
+  padding-bottom: 9px;
+}
+
+.choose-right p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--sceond-font);
+  color: var(--paragraph-color);
+  line-height: 30px;
+  padding-bottom: 41px;
+  padding-right: 120px;
+}
+
+.choose-button button {
+  border: none;
+  border: 2px solid var(--theme-color);
+  padding: 20px 40px;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--first-font);
+  line-height: 24px;
+  transition: all linear 0.3s;
+  background: var(--theme-color);
+  color: #ffffff;
+}
+
+.choose-button button:hover {
+  background: transparent;
+  color: var(--theme-color);
+}
+
+/* choose css ends here */
+/* what css starts here */
+#what {
+  padding-top: 100px;
+  padding-bottom: 101px;
+  background: #f6f5ff;
+}
+
+.rare-box h3 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--first-font);
+  color: var(--main-fontColor);
+  padding-bottom: 20px;
+}
+
+.rare-box p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--first-font);
+  color: #6c7d93;
+  padding-bottom: 56px;
+  line-height: 32px;
+}
+
+.rare-box-button button {
+  border: none;
+  border: 2px solid var(--theme-color);
+  padding: 20px 40px;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--first-font);
+  line-height: 24px;
+  transition: all linear 0.3s;
+  background: var(--theme-color);
+  color: #ffffff;
+}
+
+.rare-box-button button:hover {
+  color: var(--theme-color);
+  background: transparent;
+}
+
+.common-box {
+  padding: 50px 0;
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.1);
+  border-radius: 20px;
+  transition: all linear 0.3s;
+  margin-bottom: 25px;
+}
+
+.common-box h3 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: var(--first-font);
+  color: var(--main-fontColor);
+  line-height: 36px;
+  padding-top: 32px;
+  transition: all linear 0.3s;
+}
+
+.common-box p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--sceond-font);
+  color: var(--paragraph-color);
+  line-height: 30px;
+  padding-bottom: 5px;
+  padding: 0 80px;
+  transition: all linear 0.3s;
+}
+
+.common-box-button button {
+  background: transparent;
+  border: none;
+  color: var(--main-fontColor);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--first-font);
+  line-height: 24px;
+  padding: 8px 10px;
+  position: relative;
+  border-radius: 100px;
+  overflow: hidden;
+  z-index: 1;
+  transition: all linear 0.3s;
+}
+
+.common-box-button button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -90px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--theme-color);
+  z-index: -1;
+  transition: all linear 0.3s;
+}
+
+.common-box-button button:hover::after {
+  right: 0;
+}
+
+.common-box:hover {
+  background: #6b62c5;
+}
+
+.common-box:hover h3 {
+  color: #fafafe;
+}
+
+.common-box:hover p {
+  color: #e6e5f3;
+}
+
+.common-box:hover button {
+  color: #fafafe;
+}
+
+.common-box:hover .common-box-button button::after {
+  background-color: rgba(250, 250, 254, 0.5);
+}
+
+/* what css ends here */
+/* real css starts here */
+#real {
+  padding: 100px 0;
+}
+
+.real-head h2 {
+  color: var(--main-fontColor);
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--first-font);
+}
+
+.real-head p {
+  color: var(--paragraph-color);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--sceond-font);
+  line-height: 30px;
+  padding: 0 40px;
+}
+
+.real-left {
+  padding-top: 40px;
+}
+
+.real-left-content {
+  margin-left: 35px;
+}
+
+.real-left-content h3 {
+  color: var(--main-fontColor);
+  font-size: 30px;
+  font-weight: 700;
+  font-family: var(--first-font);
+  line-height: 36px;
+}
+
+.real-left-content p {
+  color: var(--paragraph-color);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--sceond-font);
+  line-height: 30px;
+  padding-top: 20px;
+  padding-right: 100px;
+}
+
+/* real css ends here */
+/* plan css starts here */
+#plan {
+  padding: 100px 0;
+  background-color: #f9f9fb;
+}
+
+.plan-head h2 {
+  color: var(--main-fontColor);
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--first-font);
+}
+
+.plan-box {
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.15);
+  border-radius: 20px;
+  transition: all linear.3s;
+}
+
+.plan-box:hover {
+  background: #6b62c5;
+}
+
+.plan-box:hover h4 {
+  color: #ffffff;
+}
+
+.plan-box:hover p {
+  color: #ffffff;
+}
+
+.plan-box h4 {
+  padding-top: 56px;
+  padding-bottom: 26px;
+  color: var(--main-fontColor);
+  font-size: 30px;
+  font-weight: 700;
+  font-family: var(--first-font);
+  line-height: 36px;
+  transition: all linear.3s;
+}
+
+.plan-box img {
+  width: 100%;
+  display: block;
+}
+
+.plan-box h5 {
+  font-size: 48px;
+  font-weight: 800;
+  font-family: var(--fourth-font);
+  color: var(--theme-color);
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.plan-box p {
+  font-size: 18px;
+  font-family: var(--sceond-font);
+  color: var(--paragraph-color);
+  padding: 0 63px;
+  line-height: 32px;
+  padding-bottom: 59px;
+  transition: all linear.3s;
+}
+
+/* plan css ends here */
+/* about css starts here */
+#about {
+  background-color: #f8f8ff;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.about-content {
+  margin-top: 152px;
+  background: #ffffff;
+  box-shadow: -15px 30px 50px rgba(171, 175, 199, 0.301961);
+  border-radius: 20px;
+  padding-bottom: 56px;
+  position: relative;
+}
+
+.about-content img {
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.about-content p {
+  font-size: 24px;
+  font-family: var(--sceond-font);
+  color: var(--paragraph-color);
+  padding: 0 170px;
+  line-height: 40px;
+  padding-top: 32px;
+  padding-bottom: 48px;
+}
+
+.about-content h5 {
+  color: var(--main-fontColor);
+  font-size: 25px;
+  font-weight: 700;
+  font-family: var(--first-font);
+  line-height: 40px;
+}
+
+.about-content span {
+  font-size: 16px;
+  font-family: var(--sceond-font);
+  color: var(--paragraph-color);
+}
+
+.slide-icon-left {
+  width: 64px;
+  height: 64px;
+  background: var(--theme-color);
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: -100px;
+  transform: translate(-50%, -50%);
+  transition: all linear 0.3s;
+  line-height: 64px;
+}
+
+.slide-icon-right {
+  width: 64px;
+  height: 64px;
+  background: var(--theme-color);
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: -170px;
+  transform: translate(-50%, -50%);
+  transition: all linear 0.3s;
+  line-height: 64px;
+}
+
+.slide-icon-left:hover,
+.slide-icon-right:hover {
+  background: transparent;
+  color: var(--theme-color);
+  border: 2px solid var(--theme-color);
+}
+
+/* about css ends here */
+/* like css starts here */
+#like {
+  padding: 100px 0;
+}
+
+.like-head h2 {
+  color: var(--main-fontColor);
+  font-size: 50px;
+  font-weight: 700;
+  font-family: var(--first-font);
+  line-height: 65px;
+  padding-bottom: 64px;
+  margin-bottom: 0;
+}
+
+.like-left-img img {
+  width: 100%;
+}
+
+.like-content-list {
+  padding-left: 0;
+}
+
+.like-content-list li a {
+  padding-right: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--third-font);
+  color: var(--paragraph-color);
+  line-height: 22px;
+  transition: all linear 0.3s;
+}
+
+.like-content-list li:hover a {
+  color: var(--theme-color);
+}
+
+.menu h5 {
+  color: var(--main-fontColor);
+  font-size: 30px;
+  font-weight: 700;
+  font-family: var(--first-font);
+  line-height: 55px;
+}
+
+.like-button button {
+  background: transparent;
+  border: none;
+  color: var(--main-fontColor);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--first-font);
+  line-height: 24px;
+  padding: 8px 10px;
+  position: relative;
+  border-radius: 100px;
+  overflow: hidden;
+  z-index: 1;
+  transition: all linear 0.3s;
+}
+
+.like-button button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -90px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 191, 0, 0.6);
+  z-index: -1;
+  transition: all linear 0.3s;
+}
+
+.like-button button:hover::after {
+  right: 0;
+}
+
+/* like css ends here */
+/* footer css starts here */
+#footer {
+  background-color: var(--footer-color);
+  padding-top: 140px;
+  padding-bottom: 57px;
+}
+
+.footer-left p {
+  font-size: 18px;
+  font-family: var(--sceond-font);
+  color: #fefefe;
+  line-height: 180%;
+  padding-top: 44px;
+  padding-bottom: 190px;
+}
+
+.footer-features h4 {
+  color: #fafafe;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--first-font);
+}
+
+.footer-features {
+  padding-left: 50px;
+}
+
+.footer-features ul {
+  padding-left: 0;
+  padding-top: 48px;
+}
+
+.footer-features ul li {
+  padding-bottom: 30px;
+}
+
+.footer-features ul li a {
+  color: #fafafe;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--fourth-font);
+  line-height: 120%;
+}
+
+.copyright-part1 span {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--fourth-font);
+  color: #fefefe;
+  line-height: 180%;
+}
+
+.copyright-part2 span {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--fourth-font);
+  color: #fefefe;
+  line-height: 180%;
+}
+
+.copyright-part3 span {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--fourth-font);
+  color: #fefefe;
+  line-height: 180%;
+  margin-right: 0;
+}
+
+/* footer css ends here */
+/* common css starts here */
+/* common css ends here */
